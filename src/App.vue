@@ -59,24 +59,29 @@
         </ul>
       </div>
     </nav>
-    <nav>
 
-
-      <div id="nav">
-        <ul class="nav justify-content-center">
-          <li class="nav-item">
-            <router-link to="/" class="nav-link active">Home</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link to="/shop" class="nav-link dropdown-toggle" data-toggle="dropdown">Shop</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link to="/todo" class="nav-link">Blog</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link to="/about" class="nav-link">Contact</router-link>
-          </li>
-        </ul>
+    <nav class="navbar navbar-expand-sm navbar-light">
+      <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
+        <div class="collapse navbar-collapse text-center">
+          <ul class="navbar-nav ml-auto flex-nowrap" id="nav">
+            <li class="nav-item navbar-brand">
+              <router-link to="/" class="nav-link m-2 menu-item nav-active">Home</router-link>
+            </li>
+            <li class="nav-item navbar-brand">
+              <router-link
+                to="/shop"
+                class="nav-link m-2 menu-item nav-active dropdown-toggle"
+                data-toggle="dropdown"
+              >Shop</router-link>
+            </li>
+            <li class="nav-item navbar-brand">
+              <router-link to="/todo" class="nav-link m-2 menu-item nav-active">Blog</router-link>
+            </li>
+            <li class="nav-item navbar-brand">
+              <router-link to="/about" class="nav-link m-2 menu-item nav-active">Contact</router-link>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
 
@@ -100,9 +105,14 @@
 #nav a {
   font-weight: bold;
   color: #2c3e50;
+  font-size: 24px;
 }
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+.fa-shopping-bag:before {
+    content: "\f290";
+    padding: 40%;
 }
 </style>
