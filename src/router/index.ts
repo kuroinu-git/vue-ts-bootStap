@@ -2,6 +2,7 @@ import Vue from 'vue';
 import VueRouter, { RouteConfig } from 'vue-router';
 import Home from '../views/Home.vue';
 import Todo from '../views/Todo.vue';
+import Shop from '../views/Shop.vue';
 
 
 Vue.use(VueRouter);
@@ -24,6 +25,11 @@ const routes: RouteConfig[] = [
     path: '/todo',
     name: 'Todo',
     component: Todo,
+  },
+  {
+    path: '/shop',
+    name: 'Shop',
+    component: Shop,
   },
 ];
 

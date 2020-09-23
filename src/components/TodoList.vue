@@ -1,4 +1,4 @@
-<template>
+<template class="change-background-color">
   <div class="todolist">
     <h1>{{ msg }}</h1>
     <div class="input-group mb-3">
@@ -74,11 +74,13 @@ export default class TodoList extends Vue {
     const todo = new Todo(this.todoInput);
     this.todoList.push(todo);
   }
-
+  beforeUpdate() {
+    console.log('before update');
+  }
   delTodo(todo: Todo) {
     console.log('delTodo: ', todo);
     this.todoList = this.todoList.filter((todoItem) => {
-      return todoItem !== todo ;
+      return todoItem !== todo;
     });
   }
 
