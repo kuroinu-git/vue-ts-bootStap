@@ -60,29 +60,23 @@
       </div>
     </nav>
 
-    <nav class="navbar navbar-expand-sm navbar-light">
-      <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
-        <div class="collapse navbar-collapse text-center">
-          <ul class="navbar-nav ml-auto flex-nowrap" id="nav">
-            <li class="nav-item navbar-brand">
-              <router-link to="/" class="nav-link m-2 menu-item nav-active">Home</router-link>
-            </li>
-            <li class="nav-item navbar-brand">
-              <router-link
-                to="/shop"
-                class="nav-link m-2 menu-item nav-active dropdown-toggle"
-                data-toggle="dropdown"
-              >Shop</router-link>
-            </li>
-            <li class="nav-item navbar-brand">
-              <router-link to="/todo" class="nav-link m-2 menu-item nav-active">Blog</router-link>
-            </li>
-            <li class="nav-item navbar-brand">
-              <router-link to="/about" class="nav-link m-2 menu-item nav-active">Contact</router-link>
-            </li>
-          </ul>
-        </div>
-      </div>
+    <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center" id="nav">
+      <li class="nav-item navbar-brand">
+        <router-link to="/" class="nav-link m-2 menu-item nav-active">Home</router-link>
+      </li>
+      <li class="nav-item navbar-brand">
+        <router-link
+          to="/shop"
+          class="nav-link m-2 menu-item nav-active dropdown-toggle"
+          data-toggle="dropdown"
+        >Shop</router-link>
+      </li>
+      <li class="nav-item navbar-brand">
+        <router-link to="/todo" class="nav-link m-2 menu-item nav-active">Blog</router-link>
+      </li>
+      <li class="nav-item navbar-brand">
+        <router-link to="/about" class="nav-link m-2 menu-item nav-active">Contact</router-link>
+      </li>
     </nav>
 
     <router-view />
@@ -94,25 +88,24 @@
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
 }
 
 #nav {
-  padding: 30px;
+  padding: 0px;
 }
 
 #nav a {
   font-weight: bold;
   color: #2c3e50;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 #nav a.router-link-exact-active {
   color: #42b983;
 }
 .fa-shopping-bag:before {
-    content: "\f290";
-    padding: 40%;
+  content: '\f290';
+  padding: 40%;
 }
 </style>

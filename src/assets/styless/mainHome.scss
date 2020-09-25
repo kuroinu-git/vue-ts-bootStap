@@ -1,0 +1,18 @@
+.container {
+    padding-inline-start: 100px;
+    padding-block-start: 50px;
+    padding-inline-end: 100px;
+
+}
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    height: 100px;
+    padding: 10px;
+}
+
+.btn a.btn-outline-primary{
+    border-radius: 22px;
+    padding: 0px;
+    font-weight: bold;
+  }
