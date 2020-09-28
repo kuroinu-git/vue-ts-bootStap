@@ -1,16 +1,56 @@
 <template>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg d-flex flex-column">
-        <div class="card">
-          <div class="card-body h-100">
-            <h4 class="card-title">.card-title</h4>
-            <p
-              class="card-text"
-            >This is another panel with even more text content! Nullam sapien massa, aliquam in cursus ut, ullamcorper in tortor. Aliquam codeply mauris arcu, tristique a lobortis vitae, condimentum feugiat justo.</p>
-            <a href="#" class="btn btn-primary">.btn-primary</a>
-          </div>
-        </div>
+  <div class="grid">
+    <div class="grid__item grid__item--lg">
+      <div class="caption">
+        <br />
+        <h1>Aspect ratio grid - now with variable ratios!</h1>
+        <br />
+        <p>I noticed that using the CSS aspect ratio hack was causing issues with CSS Grid</p>
+        <br />
+        <button type="button" class="btn btn-outline-light btn--s">Popular</button>
+      </div>
+      <img
+        src="https://images.unsplash.com/photo-1509408895711-7eda6e83c637?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1844cab997dc2e5f1ce14e3b9cbd0bc1&auto=format&fit=crop&w=1500&q=80"
+        alt="Starry sky"
+        width="100%"
+        height="100%"
+        display="block"
+        object-fit="cover"
+      />
+    </div>
+
+    <div class="grid__item grid__item--sm">
+      <div class="caption--sm" width="100%" height="100%">
+        <p class="card-text">24 items</p>
+        <br />
+        <h2>MEMEMEMM</h2>
+        <br />
+        <br />
+      </div>
+    </div>
+
+    <div class="grid__item grid__item--sm">
+      <div class="caption--sm--s">
+        <button type="button" class="btn btn-outline-light btn--s">NEW</button>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <h2>MEMEMEMM</h2>
+      </div>
+    </div>
+
+    <div class="grid__item grid__item--db">
+      <div class="caption--lg--s">
+        <button type="button" class="btn btn-outline-light btn--s">NEW</button>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <h2>MEMEMEMM</h2>
       </div>
     </div>
   </div>

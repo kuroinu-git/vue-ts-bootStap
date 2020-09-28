@@ -1,12 +1,14 @@
-.container {
-    margin-left: 10px;
-  }
-  .btn{
+  .btn-lg-h{
     border-radius: 22px;
     padding: 15px 50px;
     font-weight: bold;
   }
   .headimage {
-      padding: 100px;
+      padding: 150px;
       margin-bottom: 2rem;
   }
+.col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 40%;
+}
