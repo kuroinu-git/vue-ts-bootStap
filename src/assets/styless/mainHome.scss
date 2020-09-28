@@ -21,7 +21,7 @@ a {
 :root {
     // We just need to know these 3 values up front:
     --wrapper: 100vw;
-    --gutter: 10px;
+    --gutter: 20px;
     --noOfColumns: 4;
     
     // Number of gutters is columns minus 1:
@@ -52,37 +52,43 @@ a {
     padding-inline-end: 200px;
     padding-top: 40px;
     @media (min-width: 60em) {
-      margin: var(--gutter) auto;
+    margin: var(--gutter) auto;
+    
   }
 }
 
 .grid__item {
     background-color: steelBlue;
+    border-radius: 22px;  
 }
 
 .grid__item--lg {
     grid-column: span 2;
     grid-row: span 2;
-    background-color: coral;
+    background-color: orangered;
     position: relative;
+    border-radius: 22px;
+    
+
 }
 
-.grid__item--right {
-    grid-column: 3 / span 2;
-}
 
 .grid__item--db {
     grid-column: span 2;
     background-color: lightBlue;
-    padding: 1.5em;
+    position: relative;
+    border-radius: 22px;
+    
 }
 
 .caption {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
   padding: 1.5em;
   color: white;
+  border-radius: 22px;
+  padding-inline-start: 30px;
 }
 
 .caption--sm {
@@ -91,7 +97,7 @@ a {
   margin-top:0px;
   height:53%;
   color: white;
-  padding:20px;
+  padding-inline-start: 30px;
   padding-top: 110px;
   padding-bottom: 50px;
 
@@ -103,20 +109,27 @@ a {
   margin-top:10px;
   height:53%;
   color: white;
-  padding:20px;
+  padding-inline-start: 30px;
   padding-top: 40px;
   padding-bottom: 50px;
 }
 .caption--lg--s {
   position: absolute;
-  width: calc(38% - 20px);
-  margin-top:0px;
-  height:53%;
-  padding:10px;
+  width: 100%;
+  margin-top:40px;
+  height:100%;
+  padding-inline-start: 30px;
   color: white;
 }
 .btn--s {
   border-radius: 10px;
   padding: 5px 20px;
   font-weight: bold;
+}
+.img--rounded--lg {
+  border-radius: 22px;
+}
+.img--rounded--l--s {
+  border-radius: 22px;
+
 }

@@ -12,6 +12,7 @@
       <img
         src="https://images.unsplash.com/photo-1509408895711-7eda6e83c637?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1844cab997dc2e5f1ce14e3b9cbd0bc1&auto=format&fit=crop&w=1500&q=80"
         alt="Starry sky"
+        class="img--rounded--lg"
         width="100%"
         height="100%"
         display="block"
@@ -20,13 +21,22 @@
     </div>
 
     <div class="grid__item grid__item--sm">
-      <div class="caption--sm" width="100%" height="100%">
+      <div class="caption--sm">
         <p class="card-text">24 items</p>
         <br />
         <h2>MEMEMEMM</h2>
         <br />
         <br />
       </div>
+         <img
+        src="https://images.unsplash.com/photo-1509408895711-7eda6e83c637?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1844cab997dc2e5f1ce14e3b9cbd0bc1&auto=format&fit=crop&w=1500&q=80"
+        alt="Starry sky"
+        class="img--rounded--lg"
+        width="100%"
+        height="100%"
+        display="block"
+        object-fit="cover"
+      />
     </div>
 
     <div class="grid__item grid__item--sm">
@@ -39,6 +49,15 @@
         <br />
         <h2>MEMEMEMM</h2>
       </div>
+         <img
+        src="https://images.unsplash.com/photo-1509408895711-7eda6e83c637?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1844cab997dc2e5f1ce14e3b9cbd0bc1&auto=format&fit=crop&w=1500&q=80"
+        alt="Starry sky"
+        class="img--rounded--lg"
+        width="100%"
+        height="100%"
+        display="block"
+        object-fit="cover"
+      />
     </div>
 
     <div class="grid__item grid__item--db">
@@ -52,6 +71,15 @@
         <br />
         <h2>MEMEMEMM</h2>
       </div>
+      <img
+        src="https://images.unsplash.com/photo-1509408895711-7eda6e83c637?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1844cab997dc2e5f1ce14e3b9cbd0bc1&auto=format&fit=crop&w=1500&q=80"
+        alt="Starry sky"
+        class="img--rounded--lg"
+        width="100%"
+        height="300px"
+        display="block"
+        object-fit="cover"
+      />
     </div>
   </div>
 </template>
