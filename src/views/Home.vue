@@ -4,6 +4,7 @@
     <Mainhome msg="MEMEMEMEMEMEMEMEM" />
     <Caroueslhome msg="MEMEMEMEMEMEMEMEM" />
     <Likehome msg="MEMEMEMEMEMEMEMEM" />
+    <Endhome msg="MEMEMEMEMEMEMEMMEMEEM"/>
   </div>
 </template>
 
@@ -13,6 +14,7 @@ import Headhome from '@/components/Home/HeaderHome.vue';
 import Mainhome from '@/components/Home/MainHome.vue';
 import Caroueslhome from '@/components/Home/CarouselHome.vue';
 import Likehome from '@/components/Home/LikeHome.vue';
+import Endhome from '@/components/Home/EndHome.vue';
 
 @Component({
   components: {
@@ -20,6 +22,7 @@ import Likehome from '@/components/Home/LikeHome.vue';
     Mainhome,
     Caroueslhome,
     Likehome,
+    Endhome
   },
 })
 export default class Home extends Vue {}

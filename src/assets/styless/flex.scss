@@ -1,0 +1,49 @@
+.flex-container {
+  padding: 3px;
+  -webkit-display: -webkit-box;
+  -webkit-display: -webkit-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #594255;
+}
+
+.item {
+  background-color: #fff;
+  width: 100%;
+  margin: 1%;
+  text-align: center;
+  line-height: 100px;
+  color: #594255;
+  font-size: 30px;
+}
+
+.big {
+  width: 60%;
+}
+.small {
+  width: 10%;
+}
+.mediam {
+  width: 15%;
+}
+
+/////////grid
+.grid-container {
+  display: grid;
+  grid-gap: 20px;
+  background-color: #594255;
+  grid-template-columns: 10% 60% 15% auto;
+  grid-auto-columns: 100%;
+  grid-auto-rows: 100%;
+  padding: 13px;
+  width: 100%;
+  line-height: 50px;
+}
+
+.grid-container > div {
+  background-color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}

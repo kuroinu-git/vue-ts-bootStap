@@ -1,17 +1,16 @@
 <template>
   <div class="app container">
-    <h1>MEMEMEMEMEEMEM</h1>
-    <HeadShope msg="MEEMEMEMEM_MSG" />
+    <Headshope />
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import HeadShope from '@/components/Shop/HeadShope.vue';
+import Headshope from '@/components/Shop/HeadShope.vue';
 
 @Component({
   components: {
-      HeadShope,
+    Headshope,
   },
 })
 export default class Shop extends Vue {}
