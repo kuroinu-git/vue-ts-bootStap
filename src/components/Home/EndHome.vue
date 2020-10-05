@@ -1,167 +1,134 @@
 <template>
   <!-- Footer -->
-<footer class="page-footer font-small stylish-color-dark pt-4">
-
-  <!-- Footer Links -->
-  <div class="container text-center text-md-left">
-
-    <!-- Grid row -->
-    <div class="row">
-
+  <!-- Footer -->
+  <footer class="page-footer font-small indigo">
+    <!-- Footer Links -->
+    <!-- Grid row-->
+    <div class="row text-center d-flex justify-content-center pt-5 mb-3">
       <!-- Grid column -->
-      <div class="col-md-4 mx-auto">
-
-        <!-- Content -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Footer Content</h5>
-        <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-          consectetur
-          adipisicing elit.</p>
-
+      <div class="col-md-2 mb-3 col-footer">
+        <h5 class="text-uppercase font-weight-bold">
+          <S>Home</S>
+        </h5>
       </div>
       <!-- Grid column -->
 
-      <hr class="clearfix w-100 d-md-none">
-
       <!-- Grid column -->
-      <div class="col-md-2 mx-auto">
-
-        <!-- Links -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!">Link 1</a>
-          </li>
-          <li>
-            <a href="#!">Link 2</a>
-          </li>
-          <li>
-            <a href="#!">Link 3</a>
-          </li>
-          <li>
-            <a href="#!">Link 4</a>
-          </li>
-        </ul>
-
+      <div class="col-md-2 mb-3 col-footer">
+        <h5 class="text-uppercase font-weight-bold">
+          <a>Shop</a>
+        </h5>
       </div>
       <!-- Grid column -->
 
-      <hr class="clearfix w-100 d-md-none">
-
       <!-- Grid column -->
-      <div class="col-md-2 mx-auto">
-
-        <!-- Links -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!">Link 1</a>
-          </li>
-          <li>
-            <a href="#!">Link 2</a>
-          </li>
-          <li>
-            <a href="#!">Link 3</a>
-          </li>
-          <li>
-            <a href="#!">Link 4</a>
-          </li>
-        </ul>
-
+      <div class="col-md-2 mb-3 col-footer">
+        <h5 class="text-uppercase font-weight-bold">
+          <a>Blog</a>
+        </h5>
       </div>
       <!-- Grid column -->
 
-      <hr class="clearfix w-100 d-md-none">
-
       <!-- Grid column -->
-      <div class="col-md-2 mx-auto">
-
-        <!-- Links -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!">Link 1</a>
-          </li>
-          <li>
-            <a href="#!">Link 2</a>
-          </li>
-          <li>
-            <a href="#!">Link 3</a>
-          </li>
-          <li>
-            <a href="#!">Link 4</a>
-          </li>
-        </ul>
-
+      <div class="col-md-2 mb-3 col-footer">
+        <h5 class="text-uppercase font-weight-bold">
+          <a>Contact</a>
+        </h5>
       </div>
       <!-- Grid column -->
-
     </div>
-    <!-- Grid row -->
+    <!-- Grid row-->
+    <hr />
+    <div class="container bottom_border">
+      <div class="row">
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="headin5_amrc col_white_amrc pt2">
+            <i class="fa fa-facebook"></i> Clay Shop
+          </h5>
+          <!--headin5_amrc-->
+          <p class="mb3">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
 
-  </div>
-  <!-- Footer Links -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="headin5_amrc col_white_amrc pt2">Hot links</h5>
+          <!--headin5_amrc-->
+          <ul class="footer_ul_amrc">
+            <li><a>Home</a></li>
+            <li><a>Shop</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+          <!--footer_ul_amrc ends here-->
+        </div>
 
-  <hr>
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="headin5_amrc col_white_amrc pt2">More info</h5>
+          <!--headin5_amrc-->
+          <ul class="footer_ul_amrc">
+            <li><a>How it works</a></li>
+            <li>
+              <a>About us</a>
+            </li>
+            <li><a>Decline rules</a></li>
+            <li><a>Terms & Coditions</a></li>
+          </ul>
+          <!--footer_ul_amrc ends here-->
+        </div>
 
-  <!-- Call to action -->
-  <ul class="list-unstyled list-inline text-center py-2">
-    <li class="list-inline-item">
-      <h5 class="mb-1">Register for free</h5>
-    </li>
-    <li class="list-inline-item">
-      <a href="#!" class="btn btn-danger btn-rounded">Sign up!</a>
-    </li>
-  </ul>
-  <!-- Call to action -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="headin5_amrc col_white_amrc pt2">Customer care</h5>
+          <!--headin5_amrc ends here-->
 
-  <hr>
+          <ul class="footer_ul_amrc">
+            <li><a>FAQ</a></li>
+            <li>
+              <a>Terms of use</a>
+            </li>
+            <li><a>Privacy Policy</a></li>
+            <li><a>Discount system</a></li>
+          </ul>
+          <!--footer_ul2_amrc ends here-->
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container-s border-ending">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="copyright">© 2015, Webenlance, All rights reserved</div>
+          </div>
 
-  <!-- Social buttons -->
-  <ul class="list-unstyled list-inline text-center">
-    <li class="list-inline-item">
-      <a class="btn-floating btn-fb mx-1">
-        <i class="fab fa-facebook-f"> </i>
-      </a>
-    </li>
-    <li class="list-inline-item">
-      <a class="btn-floating btn-tw mx-1">
-        <i class="fab fa-twitter"> </i>
-      </a>
-    </li>
-    <li class="list-inline-item">
-      <a class="btn-floating btn-gplus mx-1">
-        <i class="fab fa-google-plus-g"> </i>
-      </a>
-    </li>
-    <li class="list-inline-item">
-      <a class="btn-floating btn-li mx-1">
-        <i class="fab fa-linkedin-in"> </i>
-      </a>
-    </li>
-    <li class="list-inline-item">
-      <a class="btn-floating btn-dribbble mx-1">
-        <i class="fab fa-dribbble"> </i>
-      </a>
-    </li>
-  </ul>
-  <!-- Social buttons -->
-
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
-  </div>
-  <!-- Copyright -->
-
-</footer>
-<!-- Footer -->
+          <div class="col-md-7">
+            <div class="design">
+              <a href="#" class="social"
+                ><i class="fa fa-facebook fa-pad" aria-hidden="true"></i
+              ></a>
+              <a href="#" class="social"
+                ><i class="fa fa-twitter fa-pad" aria-hidden="true"></i
+              ></a>
+              <a href="#" class="social"
+                ><i class="fa fa-instagram fa-pad" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 </template>
 <script  lang="ts">
 import { Component, Prop, Vue } from 'vue-property-decorator';
+import '@/assets/styless/endhome.scss';
 @Component({})
 export default class EndHome extends Vue {
-      @Prop() private msg!: string;
+  @Prop() private msg!: string;
 }
 </script>
