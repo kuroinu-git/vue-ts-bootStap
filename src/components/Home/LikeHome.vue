@@ -44,14 +44,14 @@
                         </p>
                         <div class="cart-section">
                           <div class="row">
-                            <div class="col-md-6 col-sm-12 col-xs-6 review"> 
-                              <br />
+                            <div class="col-md-6 col-sm-12 col-xs-6 review">
+                              <br /> 
                               <h5 class="detail-price">$ 187.87</h5>
                             </div>
-                            <div class="col-md-6 col-sm-12 col-xs-6">
-                              <a href="#" class="btn btn-outline-danger"
-                                >More</a
-                              >
+                            <div class="col-md-6 col-sm-12 col-xs-6 review-btn"> 
+                              <button href="#" class="btn btn-outline-shop"
+                                >Shop Now</button
+                              >                            
                             </div>
                           </div>
                         </div>
@@ -78,13 +78,13 @@
                         <div class="cart-section">
                           <div class="row">
                             <div class="col-md-6 col-sm-12 col-xs-6 review">
-                              <br />
-                              <h5 class="detail-price">$187.87</h5>
+                              <br /> 
+                              <h5 class="detail-price">$ 187.87</h5>
                             </div>
-                            <div class="col-md-6 col-sm-12 col-xs-6">
-                              <a href="#" class="btn btn-outline-danger"
-                                >More</a
-                              >
+                            <div class="col-md-6 col-sm-12 col-xs-6 review-btn"> 
+                              <button href="#" class="btn btn-outline-shop"
+                                >Shop Now</button
+                              >                            
                             </div>
                           </div>
                         </div>
@@ -93,7 +93,7 @@
                   </div>
 
                   <div class="col-sm-4">
-                   <div class="thumb-wrapper-card">
+                    <div class="thumb-wrapper-card">
                       <div class="img-box">
                         <img
                           src="https://images.unsplash.com/photo-1509408895711-7eda6e83c637?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1844cab997dc2e5f1ce14e3b9cbd0bc1&auto=format&fit=crop&w=1500&q=80"
@@ -111,13 +111,13 @@
                         <div class="cart-section">
                           <div class="row">
                             <div class="col-md-6 col-sm-12 col-xs-6 review">
-                              <br />
-                              <h5 class="detail-price">$187.87</h5>
+                              <br /> 
+                              <h5 class="detail-price">$ 187.87</h5>
                             </div>
-                            <div class="col-md-6 col-sm-12 col-xs-6">
-                              <a href="#" class="btn btn-outline-danger"
-                                >More</a
-                              >
+                            <div class="col-md-6 col-sm-12 col-xs-6 review-btn"> 
+                              <button href="#" class="btn btn-outline-shop"
+                                >Shop Now</button
+                              >                            
                             </div>
                           </div>
                         </div>

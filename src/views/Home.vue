@@ -15,7 +15,7 @@ import Mainhome from '@/components/Home/MainHome.vue';
 import Caroueslhome from '@/components/Home/CarouselHome.vue';
 import Likehome from '@/components/Home/LikeHome.vue';
 import Endhome from '@/components/Home/EndHome.vue';
-
+import '@/assets/styless/home.scss';
 @Component({
   components: {
     Headhome,
