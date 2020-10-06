@@ -47,20 +47,20 @@
 	font-size: 13px;
 }
 
-.carousel-indicators {
+.carousels-indicators {
 	bottom: -50px;
 }
-.carousel-indicators li, .carousel-indicators li.active {
+.carousels-indicators li, .carousels-indicators li.active {
 	width: 10px;
 	height: 10px;
 	border-radius: 50%;
 	margin: 4px;
 	border: none;
 }
-.carousel-indicators li {	
+.carousels-indicators li {	
 	background: #ababab;
 }
-.carousel-indicators li.active {	
+.carousels-indicators li.active {	
 	background: #555;
 }
 .img-fluid {
@@ -72,4 +72,25 @@
 }
 .review-btn {
 	margin-inline-start: 70px;
+}
+.controls{
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+.btn-info,.btn-info:visited,.btn-info:hover{
+	background-color: #eceaea;
+	border-color: #eceaea;
+}
+.btn-info{
+	margin-left:100px;
+	color: #bdbaba;
+}
+.hidden-xs{
+	max-width: 100%;
+}
+.carousel-card {
+	width: 155%;
+	top: 27px;
+
 }
