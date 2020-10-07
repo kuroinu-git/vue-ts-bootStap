@@ -44,8 +44,8 @@
 
 }
 .carousel .thumb-content-card {
-	padding: 15px;
-	font-size: 13px;
+	padding: 20px;
+	font-size: 14px;
 }
 .carousel-control-left, .carousel-control-right {
 	height: 44px;
@@ -106,10 +106,13 @@
     border-color: #eceaea;
 }
 .btn-info-card{
-    margin-left:100px;
+	margin-left:100px;
+	padding: 7px 13px;
 	color: #bdbaba ;
-	background-color: #eceaea ;
-    border-color: #eceaea ;
+	background-color: #fff;
+	border-color: #eceaea ;
+	border-radius: 7px;
+
 }
 
 .controls{

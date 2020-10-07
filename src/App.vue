@@ -67,9 +67,9 @@
       <li class="nav-item navbar-brand">
         <router-link
           to="/shop"
-          class="nav-link m-2 menu-item nav-active dropdown-toggle"
-          data-toggle="dropdown"
-        >Shop</router-link>
+          class="nav-link m-2 menu-item nav-active" >Shop
+           <i class="fa fa-angle-down"></i>
+          </router-link>
       </li>
       <li class="nav-item navbar-brand">
         <router-link to="/todo" class="nav-link m-2 menu-item nav-active">Blog</router-link>
