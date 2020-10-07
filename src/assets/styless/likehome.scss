@@ -1,6 +1,6 @@
 .carousel {
 	margin: 30px auto 60px;
-	padding: 0 80px;
+    padding: 0 30px;
 }
 .carousel .carousel-item {
 	text-align: center;
@@ -99,6 +99,8 @@
 .img-fluid {
 	border-top-left-radius: 22px;
 	border-top-right-radius: 22px;
+	width: 100%;
+
 }
 
 .btn-info-card .btn-info-card:visited .btn-info-card:hover{
@@ -106,13 +108,12 @@
     border-color: #eceaea;
 }
 .btn-info-card{
-	margin-left:100px;
+    margin-left: 110px;
 	padding: 7px 13px;
 	color: #bdbaba ;
 	background-color: #fff;
 	border-color: #eceaea ;
 	border-radius: 7px;
-
 }
 
 .controls{

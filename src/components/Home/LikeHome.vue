@@ -2,7 +2,7 @@
   <div class="container-carousel">
 	<div class="row">
 		<div class="col-md-10 mx-auto">
-      <div class="mh-100" style="height: 60px"></div>
+      <div class="mh-100" style="height: 20px"></div>
 			<div id="myCarouselcard" class="carousel slide" data-ride="carousel" data-interval="0" data-type="multi">
 			<!-- Carousel indicators -->
           <div class="col-md-6 col-sm-6 col-xs-6 hidden-xs">
