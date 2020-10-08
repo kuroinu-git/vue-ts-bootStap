@@ -4,14 +4,20 @@
     font-weight: bold;
   }
   .headimage {
-      padding: 150px;
-      margin-bottom: 2rem;
-  }
+    padding: 150px;
+    background-image: url(https://images.unsplash.com/photo-1509408895711-7eda6e83c637?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1844cab…&auto=format&fit=crop&w=1500&q=80);
+    background-repeat: no-repeat;
+    background-size: 2000px 900px;
+    position: relative;
+    max-width: 100%;
+    padding-top: 250px;
+    padding-bottom: 320px;
+}
 .col-md-6 {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 40%;
 }
-.headhome {
-  padding-left: 55px;
+.text-header {
+  padding-left: 60px;
 }
