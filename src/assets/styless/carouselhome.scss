@@ -2,11 +2,13 @@
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
+	padding-top: 25px;
     margin-right: auto;
     margin-left: auto;
     max-width: 1520px;
     background: #FFFFFF;
-    border-radius: 22px;
+	border-radius: 22px;
+
 }
 
 .carousel {
@@ -126,4 +128,7 @@
 .star-rating i {
 	font-size: 14px;
 	color: #ffc000;
+}
+.text-card {
+	color: #999;
 }

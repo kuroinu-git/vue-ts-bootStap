@@ -4,7 +4,7 @@
   <footer class="page-footer font-small indigo">
     <!-- Footer Links -->
     <!-- Grid row-->
-    <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+    <div class="row text-center d-flex justify-content-center pt-5 mb-3 footer-Head">
       <!-- Grid column -->
       <div class="col-md-2 mb-3 col-footer">
         <h5 class="text-uppercase font-weight-bold">

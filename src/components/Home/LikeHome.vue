@@ -2,7 +2,6 @@
   <div class="container-carousel">
 	<div class="row">
 		<div class="col-md-10 mx-auto">
-      <div class="mh-100" style="height: 20px"></div>
 			<div id="myCarouselcard" class="carousel slide" data-ride="carousel" data-interval="0" data-type="multi">
 			<!-- Carousel indicators -->
           <div class="col-md-6 col-sm-6 col-xs-6 hidden-xs">
@@ -35,7 +34,7 @@
 								</div>
 								<div class="thumb-content-card">
 									<h2>London</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam.</p>
+									<p class="text-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam.</p>
 									<div class="cart-section">
                           <div class="row">
                             <div class="col-md-6 col-sm-12 col-xs-6 review">
@@ -59,7 +58,7 @@
 								</div>
 								<div class="thumb-content-card">
 									<h2>London</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam.</p>
+									<p class="text-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam.</p>
 									<div class="cart-section">
                           <div class="row">
                             <div class="col-md-6 col-sm-12 col-xs-6 review">
@@ -83,7 +82,7 @@
 								</div>
 								<div class="thumb-content-card">
 									<h2>London</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam.</p>
+									<p class="text-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam.</p>
 									<div class="cart-section">
                           <div class="row">
                             <div class="col-md-6 col-sm-12 col-xs-6 review">
@@ -116,7 +115,7 @@
 								</div>
 								<div class="thumb-content-card">
 									<h2>London</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam.</p>
+									<p class="text-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam.</p>
 									<div class="cart-section">
                           <div class="row">
                             <div class="col-md-6 col-sm-12 col-xs-6 review">
@@ -140,7 +139,7 @@
 								</div>
 								<div class="thumb-content-card">
 									<h2>London</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam.</p>
+									<p class="text-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam.</p>
 									<div class="cart-section">
                           <div class="row">
                             <div class="col-md-6 col-sm-12 col-xs-6 review">
@@ -164,7 +163,7 @@
 								</div>
 								<div class="thumb-content-card">
 									<h2>London</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam.</p>
+									<p class="text-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam.</p>
 									<div class="cart-section">
                           <div class="row">
                             <div class="col-md-6 col-sm-12 col-xs-6 review">
@@ -198,7 +197,7 @@
 								</div>
 								<div class="thumb-content-card">
 									<h2>London</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam.</p>
+									<p class="text-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam.</p>
 									<div class="cart-section">
                           <div class="row">
                             <div class="col-md-6 col-sm-12 col-xs-6 review">
@@ -222,7 +221,7 @@
 								</div>
 								<div class="thumb-content-card">
 									<h2>London</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam.</p>
+									<p class="text-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam.</p>
 									<div class="cart-section">
                           <div class="row">
                             <div class="col-md-6 col-sm-12 col-xs-6 review">
@@ -246,7 +245,7 @@
 								</div>
 								<div class="thumb-content-card">
 									<h2>London</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam.</p>
+									<p class="text-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam.</p>
 									<div class="cart-section">
                           <div class="row">
                             <div class="col-md-6 col-sm-12 col-xs-6 review">
