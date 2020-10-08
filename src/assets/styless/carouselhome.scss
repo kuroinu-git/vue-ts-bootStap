@@ -98,22 +98,27 @@
 	color: #86bd57;
 	font-size: 110%;
 }	
-.carousel .carousel-indicators {
+.carousel-indicators {
 	bottom: -50px;
 }
 .carousel-indicators li, .carousel-indicators li.active {
-	width: 10px;
-	height: 10px;
+	width: 20px;
+	height: 20px;
 	margin: 4px;
 	border-radius: 50%;
 	border-color: transparent;
 	border: none;
+	margin: 1px 3px;
+	box-sizing: border-box;
 }
 .carousel-indicators li {	
-	background: rgba(0, 0, 0, 0.2);
+	background: #ababab;
+	border: 4px solid #fff;
 }
 .carousel-indicators li.active {	
-	background: rgba(0, 0, 0, 0.6);
+	background: #555;
+	color: #fff;
+	border: 4px double;    
 }
 .star-rating li {
 	padding: 0;

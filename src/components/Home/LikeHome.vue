@@ -18,22 +18,8 @@
                     <a class="right fa fa-angle-right btn btn-info-card" href="#myCarouselcard" data-slide="next"></a>
                 </div>
             </div>
-          <h3 style="margin-left: 15px; padding-top: 20px;">MMEMEMEMEMME LIKE</h3>
+          <h3 class="headlike">MMEMEMEMEMME LIKE</h3>
           <br />
-      
-
-			<!-- <ol class="carousel-indicators">
-				<li data-target="#myCarouselcard" data-slide-to="0" class="active"></li>
-				<li data-target="#myCarouselcard" data-slide-to="1"></li>
-				<li data-target="#myCarouselcard" data-slide-to="2"></li>
-			</ol>   
-
-		<a class="carousel-control-left" href="#myCarouselcard" data-slide="prev">
-				<i class="fa fa-angle-left"></i>
-			</a>
-			<a class="carousel-control-right" href="#myCarouselcard" data-slide="next">
-				<i class="fa fa-angle-right"></i>
-			</a> -->
 
 			<!-- Wrapper for carousel items -->
 			<div class="carousel-inner">
