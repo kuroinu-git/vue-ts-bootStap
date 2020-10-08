@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <header class="blog-header py-3">
+    <header class="blog-header ">
       <nav
         class="navbar navbar-light navbar-expand-md bg-faded justify-content-center header-nav"
       >
@@ -74,35 +74,35 @@
       </nav>
     </header>
 
-    <div class="nav-scroller py-1 mb-2">
+    <div class="nav-scroller">
       <nav
         class="navbar navbar-light navbar-expand-md bg-faded justify-content-center"
         id="nav"
       >
         <li class="nav-item navbar-brand">
-          <router-link to="/" class="nav-link m-2 menu-item nav-active"
+          <router-link to="/" class="nav-link m-2 menu-item nav-active head-serif"
             >Home</router-link
           >
         </li>
         <li class="nav-item navbar-brand">
-          <router-link to="/shop" class="nav-link m-2 menu-item nav-active"
+          <router-link to="/shop" class="nav-link m-2 menu-item nav-active head-serif"
             >Shop
             <i class="fa fa-angle-down"></i>
           </router-link>
         </li>
         <li class="nav-item navbar-brand">
-          <router-link to="/todo" class="nav-link m-2 menu-item nav-active"
+          <router-link to="/todo" class="nav-link m-2 menu-item nav-active head-serif"
             >Blog</router-link
           >
         </li>
         <li class="nav-item navbar-brand">
-          <router-link to="/about" class="nav-link m-2 menu-item nav-active"
+          <router-link to="/about" class="nav-link m-2 menu-item nav-active head-serif"
             >Contact</router-link
           >
         </li>
       </nav>
     </div>
-    
+
     <router-view />
   </div>
 
@@ -151,8 +151,7 @@
   padding: 40%;
 }
 .header-nav {
-  padding: 10px 40px;
-  padding-bottom: 30px;
+  padding: 30px 40px;
 }
 .text-headers {
   margin-inline-start: 10px;
@@ -164,5 +163,15 @@
 }
 .text-center {
   padding-inline-start: 200px;
+}
+.head-serif {
+  font-family: serif; 
+  font-size: 28px !important;
+  font-weight: 300;
+  line-height: 1.5;
+  color: black;
+}
+.nav-scroller {
+padding-bottom: 20px;
 }
 </style>
