@@ -57,7 +57,7 @@
           </p>
         </div>
 
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-4">
           <h5 class="headin5_amrc col_white_amrc pt2">Hot links</h5>
           <!--headin5_amrc-->
           <ul class="footer_ul_amrc">
@@ -69,7 +69,7 @@
           <!--footer_ul_amrc ends here-->
         </div>
 
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-4">
           <h5 class="headin5_amrc col_white_amrc pt2">More info</h5>
           <!--headin5_amrc-->
           <ul class="footer_ul_amrc">
@@ -83,7 +83,7 @@
           <!--footer_ul_amrc ends here-->
         </div>
 
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-4">
           <h5 class="headin5_amrc col_white_amrc pt2">Customer care</h5>
           <!--headin5_amrc ends here-->
 

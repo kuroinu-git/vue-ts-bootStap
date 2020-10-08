@@ -14,6 +14,14 @@ footer {
 .pt-5, .py-5 {
     padding-top: 30px !important;
 }
+.mt-3 {
+    margin-top: 1rem!important;
+    margin-left: 10px !important;
+}
+.mt-4 {
+    margin-top: 1rem!important;
+    padding-inline-start: 100px;
+}
 footer p { 
     font-size:13px; 
     color:#999; 
@@ -99,11 +107,11 @@ footer p {
     color: black;
 }
 .border-ending {
-    padding-inline-start: 30px;
+    padding: 10px;
 }
 .container-s {
     max-width: 100%;
-    padding-inline-start: 235px;
+    padding-inline-start: 215px;
 
 }
 .fa-pad {
