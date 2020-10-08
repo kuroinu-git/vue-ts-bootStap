@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
+    <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center header-nav">
       <div class="d-flex w-50 mr-auto">
         <span class="w-50 d-lg-none d-block"></span>
         <a class="navbar-brand">
@@ -108,5 +108,7 @@
   content: '\f290';
   padding: 40%;
 }
-
+.header-nav {
+      padding: 20px 40px;
+}
 </style>

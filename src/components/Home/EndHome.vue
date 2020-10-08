@@ -7,33 +7,33 @@
     <div class="row text-center d-flex justify-content-center pt-5 mb-3 footer-Head">
       <!-- Grid column -->
       <div class="col-md-2 mb-3 col-footer">
-        <h5 class="text-uppercase font-weight-bold">
+        <h4 class="text-uppercase font-weight-bold">
           <S>Home</S>
-        </h5>
+        </h4>
       </div>
       <!-- Grid column -->
 
       <!-- Grid column -->
       <div class="col-md-2 mb-3 col-footer">
-        <h5 class="text-uppercase font-weight-bold">
+        <h4 class="text-uppercase font-weight-bold">
           <a>Shop</a>
-        </h5>
+        </h4>
       </div>
       <!-- Grid column -->
 
       <!-- Grid column -->
       <div class="col-md-2 mb-3 col-footer">
-        <h5 class="text-uppercase font-weight-bold">
+        <h4 class="text-uppercase font-weight-bold">
           <a>Blog</a>
-        </h5>
+        </h4>
       </div>
       <!-- Grid column -->
 
       <!-- Grid column -->
       <div class="col-md-2 mb-3 col-footer">
-        <h5 class="text-uppercase font-weight-bold">
+        <h4 class="text-uppercase font-weight-bold">
           <a>Contact</a>
-        </h5>
+        </h4>
       </div>
       <!-- Grid column -->
     </div>

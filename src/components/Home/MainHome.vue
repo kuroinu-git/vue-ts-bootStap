@@ -3,7 +3,7 @@
     <div class="grid__item grid__item--lg">
       <div class="caption">
         <br />
-        <h1>Aspect ratio grid - now with variable ratios!</h1>
+        <h1 class="serif">Aspect ratio grid - now with variable ratios!</h1>
         <br />
         <p>I noticed that using the CSS aspect ratio hack was causing issues with CSS Grid</p>
         <br />
@@ -24,7 +24,7 @@
       <div class="caption--sm">
         <p class="card-text">24 items</p>
         <div class="mh-100" style="height: 30px"></div>
-        <h2>MEMEMEMM</h2>
+        <h2  class="serif" >MEMEMEMM</h2>
       </div>
          <img
         src="https://images.unsplash.com/photo-1509408895711-7eda6e83c637?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1844cab997dc2e5f1ce14e3b9cbd0bc1&auto=format&fit=crop&w=1500&q=80"
@@ -41,7 +41,7 @@
       <div class="caption--sm--s">
         <button type="button" class="btn btn--s">NEW</button>
            <div class="mh-100" style="height: 100px"></div>
-        <h2>MEMEMEMM</h2>    
+        <h2  class="serif" >MEMEMEMM</h2>    
       </div>
          <img
         src="https://images.unsplash.com/photo-1509408895711-7eda6e83c637?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1844cab997dc2e5f1ce14e3b9cbd0bc1&auto=format&fit=crop&w=1500&q=80"
@@ -58,7 +58,7 @@
       <div class="caption--lg--s">
         <button type="button" class="btn btn--s">NEW</button>
         <div class="mh-100" style="height: 140px"></div>
-        <h2>MEMEMEMM</h2>
+        <h2  class="serif" >MEMEMEMM</h2>
       </div>
       <img
         src="https://images.unsplash.com/photo-1509408895711-7eda6e83c637?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1844cab997dc2e5f1ce14e3b9cbd0bc1&auto=format&fit=crop&w=1500&q=80"

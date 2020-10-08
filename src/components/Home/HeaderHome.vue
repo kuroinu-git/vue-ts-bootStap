@@ -3,7 +3,7 @@
     <header class="headimage text-white rounded">
       <div class="container-fluid w-100 text-header">
         <div class="col-md-6 px-0">
-          <h1 class="display-4 text-white">Business Name or Tagline MEMEMEME</h1>
+          <h1 class="display-4 text-white serif">Business Name or Tagline MEMEMEME</h1>
           <br />
           <p
             class="lead my-3"
