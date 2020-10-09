@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <header class="blog-header ">
+    <header class="blog-header">
       <nav
         class="navbar navbar-light navbar-expand-md bg-faded justify-content-center header-nav"
       >
@@ -80,23 +80,31 @@
         id="nav"
       >
         <li class="nav-item navbar-brand">
-          <router-link to="/" class="nav-link m-2 menu-item nav-active head-serif"
+          <router-link
+            to="/"
+            class="nav-link m-2 menu-item nav-active head-serif"
             >Home</router-link
           >
         </li>
         <li class="nav-item navbar-brand">
-          <router-link to="/shop" class="nav-link m-2 menu-item nav-active head-serif"
+          <router-link
+            to="/shop"
+            class="nav-link m-2 menu-item nav-active head-serif"
             >Shop
             <i class="fa fa-angle-down"></i>
           </router-link>
         </li>
         <li class="nav-item navbar-brand">
-          <router-link to="/todo" class="nav-link m-2 menu-item nav-active head-serif"
+          <router-link
+            to="/todo"
+            class="nav-link m-2 menu-item nav-active head-serif"
             >Blog</router-link
           >
         </li>
         <li class="nav-item navbar-brand">
-          <router-link to="/about" class="nav-link m-2 menu-item nav-active head-serif"
+          <router-link
+            to="/about"
+            class="nav-link m-2 menu-item nav-active head-serif"
             >Contact</router-link
           >
         </li>
@@ -143,8 +151,12 @@
   font-size: 20px;
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+#nav a.router-link-exact-active:after {
+    content: "";
+    position: relative;
+    bottom: -55px;
+    left: -50%;
+    border: 1px solid black;
 }
 .fa-shopping-bag:before {
   content: '\f290';
@@ -165,13 +177,13 @@
   padding-inline-start: 200px;
 }
 .head-serif {
-  font-family: serif; 
+  font-family: serif;
   font-size: 28px !important;
   font-weight: 300;
   line-height: 1.5;
   color: black;
 }
 .nav-scroller {
-padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 </style>

@@ -25,66 +25,7 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="row">
-                  <div class="col-sm-3">
-                    <div class="thumb-wrapper">
-                      <div class="img-box">
-                        <img
-                          src="https://images.unsplash.com/photo-1509408895711-7eda6e83c637?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1844cab997dc2e5f1ce14e3b9cbd0bc1&auto=format&fit=crop&w=1500&q=80"
-                        />
-                      </div>
-                      <div class="mh-100" style="height: 40px"></div>
-                      <div class="thumb-content">
-                        <h3 href="#">Add to Cart</h3>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-sm-3">
-                    <div class="thumb-wrapper">
-                      <div class="img-box">
-                        <img
-                          src="https://images.unsplash.com/photo-1509408895711-7eda6e83c637?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1844cab997dc2e5f1ce14e3b9cbd0bc1&auto=format&fit=crop&w=1500&q=80"                      
-                        />
-                      </div>
-                      <div class="mh-100" style="height: 40px"></div>
-                      <div class="thumb-content">
-                        <h3 href="#">Add to Cart</h3>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-sm-3">
-                    <div class="thumb-wrapper">
-                      <div class="img-box">
-                        <img
-                          src="https://images.unsplash.com/photo-1509408895711-7eda6e83c637?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1844cab997dc2e5f1ce14e3b9cbd0bc1&auto=format&fit=crop&w=1500&q=80"
-                        />
-                      </div>
-                      <div class="mh-100" style="height: 40px"></div>
-                      <div class="thumb-content">
-                        <h3 href="#">Add to Cart</h3>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-sm-3">
-                    <div class="thumb-wrapper">
-                      <div class="img-box">
-                        <img
-                          src="https://images.unsplash.com/photo-1509408895711-7eda6e83c637?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1844cab997dc2e5f1ce14e3b9cbd0bc1&auto=format&fit=crop&w=1500&q=80"
-                        />
-                      </div>
-                      <div class="mh-100" style="height: 40px"></div>
-                      <div class="thumb-content">
-                        <h3 href="#">Add to Cart</h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="carousel-item">
-                <div class="row">
+                  
                   <div class="col-sm-3">
                     <div class="thumb-wrapper">
                       <div class="img-box">
@@ -158,11 +99,13 @@
                       </div>
                     </div>
                   </div>
+
                   <div class="col-sm-3">
                     <div class="thumb-wrapper">
                       <div class="img-box">
                         <img
-                          src="https://images.unsplash.com/photo-1509408895711-7eda6e83c637?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1844cab997dc2e5f1ce14e3b9cbd0bc1&auto=format&fit=crop&w=1500&q=80"                        />
+                          src="https://images.unsplash.com/photo-1509408895711-7eda6e83c637?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1844cab997dc2e5f1ce14e3b9cbd0bc1&auto=format&fit=crop&w=1500&q=80"
+                        />
                       </div>
                       <div class="mh-100" style="height: 40px"></div>
                       <div class="thumb-content">
@@ -175,7 +118,8 @@
                     <div class="thumb-wrapper">
                       <div class="img-box">
                         <img
-                          src="https://images.unsplash.com/photo-1509408895711-7eda6e83c637?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1844cab997dc2e5f1ce14e3b9cbd0bc1&auto=format&fit=crop&w=1500&q=80"                        />
+                          src="https://images.unsplash.com/photo-1509408895711-7eda6e83c637?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1844cab997dc2e5f1ce14e3b9cbd0bc1&auto=format&fit=crop&w=1500&q=80"
+                        />
                       </div>
                       <div class="mh-100" style="height: 40px"></div>
                       <div class="thumb-content">
@@ -188,7 +132,8 @@
                     <div class="thumb-wrapper">
                       <div class="img-box">
                         <img
-                          src="https://images.unsplash.com/photo-1509408895711-7eda6e83c637?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1844cab997dc2e5f1ce14e3b9cbd0bc1&auto=format&fit=crop&w=1500&q=80"                        />
+                          src="https://images.unsplash.com/photo-1509408895711-7eda6e83c637?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1844cab997dc2e5f1ce14e3b9cbd0bc1&auto=format&fit=crop&w=1500&q=80"
+                        />
                       </div>
                       <div class="mh-100" style="height: 40px"></div>
                       <div class="thumb-content">
@@ -205,7 +150,21 @@
                     <div class="thumb-wrapper">
                       <div class="img-box">
                         <img
-                          src="https://images.unsplash.com/photo-1509408895711-7eda6e83c637?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1844cab997dc2e5f1ce14e3b9cbd0bc1&auto=format&fit=crop&w=1500&q=80"                        />
+                          src="https://images.unsplash.com/photo-1509408895711-7eda6e83c637?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1844cab997dc2e5f1ce14e3b9cbd0bc1&auto=format&fit=crop&w=1500&q=80"
+                        />
+                      </div>
+                      <div class="mh-100" style="height: 40px"></div>
+                      <div class="thumb-content">
+                        <h3 href="#">Add to Cart</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="https://images.unsplash.com/photo-1509408895711-7eda6e83c637?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1844cab997dc2e5f1ce14e3b9cbd0bc1&auto=format&fit=crop&w=1500&q=80"
+                        />
                       </div>
                       <div class="mh-100" style="height: 40px"></div>
                       <div class="thumb-content">
@@ -218,7 +177,54 @@
                     <div class="thumb-wrapper">
                       <div class="img-box">
                         <img
-                          src="https://images.unsplash.com/photo-1509408895711-7eda6e83c637?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1844cab997dc2e5f1ce14e3b9cbd0bc1&auto=format&fit=crop&w=1500&q=80"                        />
+                          src="https://images.unsplash.com/photo-1509408895711-7eda6e83c637?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1844cab997dc2e5f1ce14e3b9cbd0bc1&auto=format&fit=crop&w=1500&q=80"
+                        />
+                      </div>
+                      <div class="mh-100" style="height: 40px"></div>
+                      <div class="thumb-content">
+                        <h3 href="#">Add to Cart</h3>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="https://images.unsplash.com/photo-1509408895711-7eda6e83c637?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1844cab997dc2e5f1ce14e3b9cbd0bc1&auto=format&fit=crop&w=1500&q=80"
+                        />
+                      </div>
+                      <div class="mh-100" style="height: 40px"></div>
+                      <div class="thumb-content">
+                        <h3 href="#">Add to Cart</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="https://images.unsplash.com/photo-1509408895711-7eda6e83c637?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1844cab997dc2e5f1ce14e3b9cbd0bc1&auto=format&fit=crop&w=1500&q=80"
+                        />
+                      </div>
+                      <div class="mh-100" style="height: 40px"></div>
+                      <div class="thumb-content">
+                        <h3 href="#">Add to Cart</h3>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="https://images.unsplash.com/photo-1509408895711-7eda6e83c637?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1844cab997dc2e5f1ce14e3b9cbd0bc1&auto=format&fit=crop&w=1500&q=80"
+                        />
                       </div>
                       <div class="mh-100" style="height: 40px"></div>
                       <div class="thumb-content">
