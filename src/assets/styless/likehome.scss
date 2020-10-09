@@ -145,15 +145,35 @@
 	padding-inline-start: 20px;
 }
 .review {
-	margin-top: 13px;
-    padding-top: 10px;
+	margin-top: 9px;
+	padding-top: 10px;
 }
 .review-btn {
     margin-inline-start: 70px;
 }
 .serif{
 	font-family: serif; 
+	margin-inline-end: 60px;
+    margin-bottom: 30px;
   }
 .detail-price {
 	font-family: serif; 
   }
+ .text-card {
+
+  overflow: hidden;
+  position: relative;
+  line-height: 1.2em;
+  max-height: 6em;
+  text-align: justify;
+  margin-right: -2em;
+  padding-right: 1em;
+  
+  
+  max-width:100%;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+
+}
