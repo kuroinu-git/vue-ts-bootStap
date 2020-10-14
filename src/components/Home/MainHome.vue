@@ -1,74 +1,62 @@
 <template>
-  <div class="grid">
-    <div class="grid__item grid__item--lg">
-      <div class="caption">
-        <br />
-        <h1 class="serif">Aspect ratio grid - now with variable ratios!</h1>
-        <br />
-        <p>I noticed that using the CSS aspect ratio hack was causing issues with CSS Grid</p>
-        <br />
-        <button type="button" class="btn btn--s">Popular</button>
+  <div class="container-main-home">
+    <div class="frontpage">
+      <div class="fp-cell fp-cell--1">
+          <div class="caption-lg-background">
+        <div class="fp-item">
+            <div class="caption-lg">
+              <br />
+              <h1 class="caption-lg-serif">
+                Aspect ratio grid - now with variable ratios!
+              </h1>
+              <br />
+              <p>
+                I noticed that using the CSS aspect ratio hack was causing
+                issues with CSS Grid
+              </p>
+              <br />
+              <button type="button" class="btn btn-main">Popular</button>
+            </div>
+          </div>
+        </div>
       </div>
-      <img
-        src="https://images.unsplash.com/photo-1509408895711-7eda6e83c637?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1844cab997dc2e5f1ce14e3b9cbd0bc1&auto=format&fit=crop&w=1500&q=80"
-        alt="Starry sky"
-        class="img--rounded--lg"
-        width="100%"
-        height="100%"
-        display="block"
-        object-fit="cover"
-      />
-    </div>
 
-    <div class="grid__item grid__item--sm">
-      <div class="caption--sm">
-        <p class="card-text">24 items</p>
-        <div class="mh-100" style="height: 30px"></div>
-        <h2  class="serif" >MEMEMEMM</h2>
+      <div class="fp-cell fp-cell--3">
+          <div class="caption-sm-background">
+        <div class="fp-item">
+            <div class="caption-sm">
+              <p>24 items</p>
+              <div class="caption-sm-new-line"></div>
+              <h2 class="caption-sm-serif">MEMEMEMM</h2>
+            </div>
+          </div>
+        </div>
       </div>
-         <img
-        src="https://images.unsplash.com/photo-1509408895711-7eda6e83c637?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1844cab997dc2e5f1ce14e3b9cbd0bc1&auto=format&fit=crop&w=1500&q=80"
-        alt="Starry sky"
-        class="img--rounded--lg"
-        width="100%"
-        height="100%"
-        display="block"
-        object-fit="cover"
-      />
-    </div>
 
-    <div class="grid__item grid__item--sm">
-      <div class="caption--sm--s">
-        <button type="button" class="btn btn--s">NEW</button>
-           <div class="mh-100" style="height: 100px"></div>
-        <h2  class="serif" >MEMEMEMM</h2>    
+      <div class="fp-cell fp-cell--4">
+          <div class="caption-sm-s-background">
+        <div class="fp-item">
+            <div class="caption-sm-s">
+              <button type="button" class="btn btn-main">NEW</button>
+              <div class="caption-sm-s-new-line"></div>
+              <h2 class="caption-sm-s-serif">MEMEMEMM</h2>
+            </div>
+          </div>
+        </div>
       </div>
-         <img
-        src="https://images.unsplash.com/photo-1509408895711-7eda6e83c637?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1844cab997dc2e5f1ce14e3b9cbd0bc1&auto=format&fit=crop&w=1500&q=80"
-        alt="Starry sky"
-        class="img--rounded--lg"
-        width="100%"
-        height="100%"
-        display="block"
-        object-fit="cover"
-      />
-    </div>
 
-    <div class="grid__item grid__item--db">
-      <div class="caption--lg--s">
-        <button type="button" class="btn btn--s">NEW</button>
-        <div class="mh-100" style="height: 140px"></div>
-        <h2  class="serif" >MEMEMEMM</h2>
+      <div class="fp-cell fp-cell--2">
+          <div class="caption-lg-s-background">
+        <div class="fp-item">
+            <div class="caption-lg-s">
+              <button type="button" class="btn btn-main">NEW</button>
+              <div class="caption-lg-s-new-line"></div>
+              <h2 class="caption-lg-s-serif">MEMEMEMM</h2>
+            </div>
+          </div>
+        </div>
       </div>
-      <img
-        src="https://images.unsplash.com/photo-1509408895711-7eda6e83c637?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1844cab997dc2e5f1ce14e3b9cbd0bc1&auto=format&fit=crop&w=1500&q=80"
-        alt="Starry sky"
-        class="img--rounded--lg"
-        width="100%"
-        height="300px"
-        display="block"
-        object-fit="cover"
-      />
+
     </div>
   </div>
 </template>

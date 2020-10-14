@@ -1,133 +1,165 @@
+.container-main-home {
+  overflow-x: hidden;
+  max-width: 2000px;
+  padding-inline-start: 10em;
+  padding-inline-end: 10em;
+}
 
-* {
-    box-sizing: border-box;
+.frontpage {
+  margin: 10px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-column-gap: 1em;
+}
+.frontpage:before .frontpage:after {
+  position: relative;
+  top: 0;
+  height: 100%;
+  width: calc(100% - 0.25em);
+}
+
+.fp-cell {
+  padding: 10px;
+ 
+}
+
+.fp-cell--1 {
+  grid-row: 1 / span 2;
+}
+
+.fp-cell--2 {
+  grid-column: 2 / span 2;
+}
+
+.fp-cell--3 {
+  grid-column: 2;
+}
+
+.fp-item {
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+  height: 100%;
+  border-radius: 1.56em;
 }
 
 
-p {
-    font-size: 1.4rem;
-    line-height: 1.3;
-}
-
-a {
-    color: darken(steelBlue, 20%);
-    
-    &:hover,
-    &:focus {
-        color: black;
-    }
-}
-
-:root {
-    // We just need to know these 3 values up front:
-    --wrapper: 100vw;
-    --gutter: 20px;
-    --noOfColumns: 4;
-    
-    // Number of gutters is columns minus 1:
-    --noOfGutters: calc(var(--noOfColumns) - 1);
-    
-    // Aspect ratio goes here, e.g. 16:9:
-    --ratioA: 16;
-    --ratioB: 9;
-    // --ratio: 16/9;
-    
-    // Use the aspect ratio to calculate the factor for multiplication:
-    --factor: calc(var(--ratioB) / var(--ratioA));
-    
-    // Calculating the row height:
-    --rh: calc(( (var(--wrapper) - (var(--noOfGutters) * var(--gutter))) 
-        / var(--noOfColumns)) * var(--factor));
-}
-
-.grid {
-    max-width: var(--wrapper);
-    display: grid;
-    grid-template-columns: repeat(var(--noOfColumns), minmax(0, 1fr));
-    grid-auto-flow: dense;
-    grid-auto-rows: minmax(var(--rh), auto); // If the content is taller then the box will grow to fit. This is only going to work if the column value is 1fr
-    grid-gap: 30px;
-    margin: var(--gutter);
-    padding-inline-start: 200px;
-    padding-inline-end: 200px;
-    @media (min-width: 60em) {
-    margin: var(--gutter) auto;
-  }
-}
-
-.grid__item {
-    background-color: steelBlue;
-    border-radius: 22px;  
-}
-
-.grid__item--lg {
-    grid-column: span 2;
-    grid-row: span 2;
-    background-color: orangered;
-    position: relative;
-    border-radius: 22px;
-    
-
-}
-
-
-.grid__item--db {
-    grid-column: span 2;
-    background-color: lightBlue;
-    position: relative;
-    border-radius: 22px;
-    
-}
-
-.caption {
-  position: absolute;
-  width: 80%;
-  height: 80%;
-  padding: 1.5em;
-  color: white;
-  border-radius: 22px;
-  padding-inline-start: 40px; 
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.caption--sm {
-  position: absolute;
-  width: calc(20% - 16px);
-  margin-top:0px;
-  height:53%;
-  color: white;
-  padding-inline-start: 40px;
-  padding-top: 110px;
-  padding-bottom: 50px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
-}
-
-.caption--sm--s {
-  position: absolute;
-  width: calc(20% - 16px);
-  margin-top:10px;
-  height:53%;
-  color: white;
-  padding-inline-start: 40px;
-  padding-top: 40px;
-  padding-bottom: 50px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-.caption--lg--s {
-  position: absolute;
+//LG
+.caption-lg {
+  position: relative;
   width: 100%;
-  margin-top:40px;
-  height:100%;
-  padding-inline-start: 40px;
+  height: 100%;
+  padding-top: 2em;
+  padding-left: 3em;
+  padding-right: 15em;
+  padding-bottom: 1.5em;
   color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.btn--s {
+.caption-lg-background{
+  width: 100%;
+  height: 100%;
+  background-image: url(https://images.unsplash.com/photo-1509408895711-7eda6e83c637?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1844cab…&auto=format&fit=crop&w=1500&q=80);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  border-radius: 1.56em;
+}
+.caption-lg-serif {
+  font-family: serif; 
+}
+
+
+//SM
+.caption-sm {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-left: 3em;
+  padding-top: 8em;
+  padding-right: 1.5em;
+  padding-bottom: 1.5em;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.caption-sm-background{
+  width: 100%;
+  max-height: 100%;
+  background-image: url(https://images.unsplash.com/photo-1509408895711-7eda6e83c637?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1844cab…&auto=format&fit=crop&w=1500&q=80);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  border-radius: 1.56em;
+}
+.caption-sm-new-line {
+    height: 2.5em;
+}
+.caption-sm-serif {
+  font-family: serif; 
+}
+
+//SM_S
+.caption-sm-s {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-top: 4em;
+  padding-left: 3em;
+  padding-right: 1.5em;
+  padding-bottom: 1.5em;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.caption-sm-s-background{
+  width: 100%;
+  height: 100%;
+  background-image: url(https://images.unsplash.com/photo-1509408895711-7eda6e83c637?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1844cab…&auto=format&fit=crop&w=1500&q=80);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  border-radius: 1.56em;
+}
+
+.caption-sm-s-new-line{
+  height: 7em;
+}
+.caption-sm-s-serif {
+  font-family: serif; 
+}
+//LG_S
+.caption-lg-s {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-top: 3em;
+  padding-left: 3em;
+  padding-right: 1.5em;
+  padding-bottom: 1.5em;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.caption-lg-s-background{
+  width: 100%;
+  height: 100%;
+  background-image: url(https://images.unsplash.com/photo-1509408895711-7eda6e83c637?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1844cab…&auto=format&fit=crop&w=1500&q=80);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  border-radius: 1.56em;
+}
+.caption-lg-s-new-line{
+  height: 8em;
+}
+.caption-lg-s-serif {
+  font-family: serif; 
+}
+
+.btn-main {
   border-radius: 10px;
   padding: 5px 20px;
   font-weight: bold;
@@ -135,13 +167,10 @@ a {
   color: white;
   background-color: #ccccccad;
 }
-.img--rounded--lg {
-  border-radius: 22px;
-}
-.img--rounded--l--s {
-  border-radius: 22px;
 
-}
-.serif {
-  font-family: serif; 
-}
+
+
+
+
+
+
