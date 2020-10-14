@@ -1,12 +1,12 @@
 .container-main-home {
   overflow-x: hidden;
-  max-width: 2000px;
+  max-width: 125em;
   padding-inline-start: 10em;
   padding-inline-end: 10em;
 }
 
 .frontpage {
-  margin: 10px;
+  margin: 0.625em;
   position: relative;
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
@@ -20,7 +20,7 @@
 }
 
 .fp-cell {
-  padding: 10px;
+  padding: 0.625em;
  
 }
 
@@ -39,7 +39,7 @@
 .fp-item {
   align-items: center;
   justify-content: center;
-  min-height: 300px;
+  min-height: 18.75em;
   height: 100%;
   border-radius: 1.56em;
 }
@@ -160,8 +160,8 @@
 }
 
 .btn-main {
-  border-radius: 10px;
-  padding: 5px 20px;
+  border-radius: 0.625em;
+  padding: 0.313em 1.25em;
   font-weight: bold;
   opacity: 0.9;
   color: white;
