@@ -4,113 +4,117 @@
 footer { 
     width:100%; 
     background-color:white; 
-    min-height:250px; 
-    padding:10px 0px 0px 0px ;
+    min-height:15.625em; 
+    padding:0.625em 0em 0em 0em ;
 }
 .pt2 { 
-    padding-top:10px ; 
-    margin-bottom:20px ;
-    font-family: serif; 
-    font-size: 24px;
+    margin-bottom: 1.2em;
+    font-family: serif;
+    font-size: 1.5em;
 }
 .pt-5, .py-5 {
-    padding-top: 30px ;
+    padding-top: 1.875em ;
 }
 .mt-3 {
     margin-top: 1rem;
-    margin-left: 10px ;
+    margin-left: 0.625em ;
 }
 .mt-4 {
     margin-top: 1rem;
-    padding-inline-start: 100px;
+    padding-inline-start: 6.25em;
 }
 footer p { 
-    font-size:13px; 
-    color:#999; 
-    padding-bottom:0px; 
-    margin-bottom:8px;
-    padding-top: 10px;
+    font-size: 1.04em;
+    color: #999;
+    padding-bottom: 0em;
+    margin-bottom: 0.5em;
+    padding-top: 0.625em;
 }
 .mb10 {
-     padding-bottom:15px ;
-     padding-top: 10px;
+     padding-bottom:0.938em ;
+     padding-top: 0.625em;
     }
-.footer_ul_amrc { margin:0px ; list-style-type:none ; font-size:14px; padding:0px 0px 10px 0px ; }
+.footer_ul_amrc { 
+    margin:0em ; 
+    list-style-type:none ; 
+    font-size:0.875em; 
+    padding:0em 0em 0.625em 0em ; 
+    font-size: 1.04em;
+}
 .footer_ul_amrc li {
-    padding:0px 0px 5px 0px;
-    padding-top: 10px;
+    padding:0em 0em 0.313em 0em;
+    padding-top: 0.625em;
     color: #999;
 }
 .footer_ul_amrc li a{ color:#CCC;}
 .footer_ul_amrc li a:hover{ color:#fff; text-decoration:none;}
 .fleft { float:left;}
-.padding-right { padding-right:10px; }
+.padding-right { padding-right: 0.625em; }
 
-.footer_ul2_amrc {margin:0px; list-style-type:none; padding:0px;}
+.footer_ul2_amrc {margin:0em; list-style-type:none; padding:0em;}
 .footer_ul2_amrc li p { display:table; }
 .footer_ul2_amrc li a:hover { text-decoration:none;}
-.footer_ul2_amrc li i { margin-top:5px;}
+.footer_ul2_amrc li i { margin-top:5em;}
 
 .bottom_border { 
-    border-bottom:1px solid #323f45; 
-    padding-bottom:20px;
+    border-bottom:0.063em solid #323f45; 
+    padding-bottom:1.25em;
 }
 .foote_bottom_ul_amrc {
 	list-style-type:none;
-	padding:0px;
+	padding:0em;
 	display:table;
-	margin-top: 10px;
+	margin-top: 0.625em;
 	margin-right: auto;
-	margin-bottom: 10px;
+	margin-bottom: 0.625em;
 	margin-left: auto;
 }
 .foote_bottom_ul_amrc li { display:inline;}
-.foote_bottom_ul_amrc li a { color:#999; margin:0 12px;}
+.foote_bottom_ul_amrc li a { color:#999; margin:0 0.75em;}
 
-.social_footer_ul { display:table; margin:15px auto 0 auto; list-style-type:none;  }
-.social_footer_ul li { padding-left:20px; padding-top:10px; float:left; }
-.social_footer_ul li a { color:#CCC; border:1px solid #CCC; padding:8px;border-radius:50%;}
-.social_footer_ul li i {  width:20px; height:20px; text-align:center;}
+.social_footer_ul { display:table; margin:0.938em auto 0 auto; list-style-type:none;  }
+.social_footer_ul li { padding-left:1.25em; padding-top:0.625em; float:left; }
+.social_footer_ul li a { color:#CCC; border:0.063em solid #CCC; padding:0.5em;border-radius:50%;}
+.social_footer_ul li i {  width:1.25em; height:1.25em; text-align:center;}
 
 
 .col-footer {
     -ms-flex: 0 0 16.666667%;
     flex: 0 0 16.666667%;
-    max-width: 200px;
+    max-width: 12.5em;
 }
 .bottom_border {
 
-    border-bottom: 0px;
+    border-bottom: 0em;
 }
 .footer-bottom {
     background-color: #ededf8e3;
-    min-height: 30px;
+    min-height: 1.875em;
     width: 100%;
 }
 .copyright {
-    color: #626266;
-    line-height: 30px;
-    min-height: 30px;
-    padding: 7px 0;
+        color: #626266;
+        line-height: 1.875em;
+        min-height: 1.875em;
+        padding: 0.5em 0.5em;
+        padding-top: 1.4em;
 }
 .design {
     color: #fff;
-    line-height: 30px;
-    min-height: 30px;
-    padding: 7px 0;
+    line-height: 1.875em;
+    min-height: 1.875em;
+    padding: 0.5em 0.5em;
     text-align: right;
-	color:#fff;
-	font-size:25px;
-    padding:10px;
-    padding-inline-end: 130px;
+    color: #fff;
+    font-size: 1.563em;
+    padding: 0.625em;
+    padding-inline-end: 2em;
 
 }
 .design a {
     color: black;
 }
-.border-ending {
-    padding: 10px;
-}
+
 .container-endhome  {
     overflow-x: hidden;
 	width: 100%;
@@ -119,13 +123,13 @@ footer p {
 }
 .container-s {
     max-width: 100%;
-    padding-inline-start: 170px;
+    padding-inline-start: 10.625em;
 
 }
 .fa-pad {
-    padding-left: 50px;
+    padding-left: 3.125em;
 }
 .footer-Head {
     font-family: serif; 
-    padding-inline-end: 200px;
+    padding-inline-end: 12.5em;
   }

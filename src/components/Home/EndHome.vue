@@ -100,7 +100,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <div class="container-s border-ending">
+      <div class="container-s">
         <div class="row">
           <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
             <div class="copyright">© 2015, Webenlance, All rights reserved</div>
