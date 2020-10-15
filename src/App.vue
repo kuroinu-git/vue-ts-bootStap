@@ -116,58 +116,10 @@
 
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
-}
+<script lang="ts">
+import { Component, Vue } from 'vue-property-decorator';
+import '@/assets/styless/app.scss';
 
-#nav {
-  padding: 0px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-  font-size: 20px;
-}
-
-#nav a.router-link-exact-active:after {
-    content: "";
-    position: relative;
-    bottom: -55px;
-    left: -50%;
-    border: 1px solid black;
-}
-.fa-shopping-bag:before {
-  content: '\f290';
-  padding: 40%;
-}
-.header-nav {
-  padding: 30px 40px;
-  padding-top: 10px;
-}
-.text-headers {
-  margin-inline-start: 10px;
-  font-size: 23px;
-  font-weight: 300;
-  font-family: serif;
-  line-height: 1.5;
-  color: black;
-}
-.text-center {
-  padding-inline-start: 200px;
-}
-.head-serif {
-  font-family: serif;
-  font-size: 28px !important;
-  font-weight: 300;
-  line-height: 1.5;
-  color: black;
-}
-.nav-scroller {
-  padding-bottom: 30px;
-}
-</style>
+@Component({})
+export default class App extends Vue {}
+</script>

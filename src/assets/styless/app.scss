@@ -1,0 +1,54 @@
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
+  }
+  
+  #nav {
+    padding: 0em;
+  }
+  
+  #nav a {
+    font-weight: bold;
+    color: #2c3e50;
+    font-size: 1.25em;
+  }
+  
+  #nav a.router-link-exact-active:after {
+      content: "";
+      position: relative;
+      bottom: -3.438em;
+      left: -50%;
+      border: 0.063em solid black;
+  }
+  .fa-shopping-bag:before {
+    content: '\f290';
+    padding: 40%;
+  }
+  .header-nav {
+    padding: 1.875em 2.5em;
+    padding-top: 0.625em;
+  }
+  .text-headers {
+    margin-inline-start: 0.625em;
+    font-size: 1.438em;
+    font-weight: 300;
+    font-family: serif;
+    line-height: 1.5;
+    color: black;
+  }
+  .text-center {
+    padding-inline-start: 12.5em;
+  }
+  .head-serif {
+    font-family: serif;
+    font-size: 1.75em !important;
+    font-weight: 300;
+    line-height: 1.5;
+    color: black;
+  }
+  .nav-scroller {
+    padding-bottom: 1.875em;
+  }
+  
