@@ -14,14 +14,14 @@ footer {
     font-size: 24px;
 }
 .pt-5, .py-5 {
-    padding-top: 30px !important;
+    padding-top: 30px ;
 }
 .mt-3 {
-    margin-top: 1rem!important;
-    margin-left: 10px !important;
+    margin-top: 1rem;
+    margin-left: 10px ;
 }
 .mt-4 {
-    margin-top: 1rem!important;
+    margin-top: 1rem;
     padding-inline-start: 100px;
 }
 footer p { 
@@ -79,7 +79,7 @@ footer p {
     max-width: 200px;
 }
 .bottom_border {
-    max-width: 80%;
+
     border-bottom: 0px;
 }
 .footer-bottom {
@@ -111,9 +111,15 @@ footer p {
 .border-ending {
     padding: 10px;
 }
+.container-endhome  {
+    overflow-x: hidden;
+	width: 100%;
+    padding-inline-start: 9em;
+    padding-inline-end: 9em;
+}
 .container-s {
     max-width: 100%;
-    padding-inline-start: 215px;
+    padding-inline-start: 170px;
 
 }
 .fa-pad {

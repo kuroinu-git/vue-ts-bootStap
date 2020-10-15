@@ -39,7 +39,7 @@
     </div>
     <!-- Grid row-->
     <hr />
-    <div class="container bottom_border">
+    <div class="container-endhome bottom_border">
       <div class="row">
         <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
           <h5 class="headin5_amrc col_white_amrc pt2">

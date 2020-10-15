@@ -1,175 +1,53 @@
-.container {
-  border-top: 1px solid #DADCE0;
-  overflow-x: hidden;
-  max-width: 2000px;
+
+
+
+
+.flex-container {
+  padding: 3px;
+  -webkit-display: -webkit-box;
+  -webkit-display: -webkit-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #594255;
 }
 
-.frontpage {
-  margin: 10px;
-  position: relative;
+.item {
+  background-color: #fff;
+  width: 100%;
+  margin: 1%;
+  text-align: center;
+  line-height: 100px;
+  color: #594255;
+  font-size: 30px;
+}
+
+.big {
+  width: 60%;
+}
+.small {
+  width: 10%;
+}
+.mediam {
+  width: 15%;
+}
+
+/////////grid
+.grid-container {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
-  grid-column-gap: 1em;
-}
-.frontpage:before .frontpage:after {
-  position: relative;
-  top: 0;
-  height: 100%;
-  width: calc(100% - 0.25em);
-}
-
-.fp-cell {
-  padding: 10px;
- 
-}
-
-.fp-cell--1 {
-  grid-row: 1 / span 2;
-}
-
-.fp-cell--2 {
-  grid-column: 2 / span 2;
-}
-
-.fp-cell--3 {
-  grid-column: 2;
-}
-
-.fp-item {
-  align-items: center;
-  justify-content: center;
-  min-height: 300px;
-  height: 100%;
-  border-radius: 1.56em;
-}
-
-
-//LG
-.caption-lg {
-  position: relative;
+  grid-gap: 20px;
+  background-color: #594255;
+  grid-template-columns: 10% 60% 15% auto;
+  grid-auto-columns: 100%;
+  grid-auto-rows: 100%;
+  padding: 13px;
   width: 100%;
-  height: 100%;
-  padding-top: 2em;
-  padding-left: 3em;
-  padding-right: 15em;
-  padding-bottom: 1.5em;
-  color: white;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-.caption-lg-background{
-  width: 100%;
-  height: 100%;
-  background-image: url(https://images.unsplash.com/photo-1509408895711-7eda6e83c637?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1844cab…&auto=format&fit=crop&w=1500&q=80);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 100% 100%;
-  border-radius: 1.56em;
-}
-.caption-lg-serif {
-  font-family: serif; 
+  line-height: 50px;
 }
 
-
-//SM
-.caption-sm {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  padding-left: 3em;
-  padding-top: 8em;
-  padding-right: 1.5em;
-  padding-bottom: 1.5em;
-  color: black;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.grid-container > div {
+  background-color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
 }
-.caption-sm-background{
-  width: 100%;
-  max-height: 100%;
-  background-image: url(https://images.unsplash.com/photo-1509408895711-7eda6e83c637?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1844cab…&auto=format&fit=crop&w=1500&q=80);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 100% 100%;
-  border-radius: 1.56em;
-}
-.caption-sm-new-line {
-    height: 2.5em;
-}
-.caption-sm-serif {
-  font-family: serif; 
-}
-
-//SM_S
-.caption-sm-s {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  padding-top: 4em;
-  padding-left: 3em;
-  padding-right: 1.5em;
-  padding-bottom: 1.5em;
-  color: white;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-.caption-sm-s-background{
-  width: 100%;
-  height: 100%;
-  background-image: url(https://images.unsplash.com/photo-1509408895711-7eda6e83c637?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1844cab…&auto=format&fit=crop&w=1500&q=80);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 100% 100%;
-  border-radius: 1.56em;
-}
-
-.caption-sm-s-new-line{
-  height: 7em;
-}
-.caption-sm-s-serif {
-  font-family: serif; 
-}
-//LG_S
-.caption-lg-s {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  padding-top: 3em;
-  padding-left: 3em;
-  padding-right: 1.5em;
-  padding-bottom: 1.5em;
-  color: white;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-.caption-lg-s-background{
-  width: 100%;
-  height: 100%;
-  background-image: url(https://images.unsplash.com/photo-1509408895711-7eda6e83c637?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1844cab…&auto=format&fit=crop&w=1500&q=80);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 100% 100%;
-  border-radius: 1.56em;
-}
-.caption-lg-s-new-line{
-  height: 8em;
-}
-.caption-lg-s-serif {
-  font-family: serif; 
-}
-
-.btn-main {
-  border-radius: 10px;
-  padding: 5px 20px;
-  font-weight: bold;
-  opacity: 0.9;
-  color: white;
-  background-color: #ccccccad;
-}
-
-
-
-
-
-
-
