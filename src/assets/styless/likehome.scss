@@ -1,11 +1,17 @@
+.container-carousel {
+    overflow-x: hidden;
+	width: 100%;
+    padding-inline-start: 9em;
+    padding-inline-end: 9em;
+}
 .headlike {
 	margin-left: 15px; 
 	padding-top: 20px;
 	font-family: serif; 
 }
 .carousel {
-	margin: 30px auto 60px;
-    padding: 0 30px;
+    margin: 10px auto 60px;
+    padding: 10px;
 }
 .carousel .carousel-item {
 	text-align: center;
@@ -84,13 +90,13 @@
 }
 .carousel-indicators li, .carousel-indicators li.active {
 	width: 20px;
-	height: 20px;
-	margin: 4px;
-	border-radius: 50%;
-	border-color: transparent;
-	border: none;
-	margin: 1px 3px;
-	box-sizing: border-box;
+    height: 20px;
+    margin: 4px;
+    border-radius: 50%;
+    border-color: transparent;
+    border: none;
+    margin: 6px;
+    box-sizing: border-box;
 }
 .carousel-indicators li {	
 	background: #ababab;
@@ -119,31 +125,34 @@
     border-color: #eceaea;
 }
 .btn-info-card{
-	font-size: 20px;
-	text-shadow: none;
-	font-weight: bold;
-    margin-left: 110px;
-	padding: 7px 13px;
-	color: #bdbaba ;
-	background-color: #fff;
-	border-color: #eceaea ;
-	border-radius: 7px;
+	line-height: 25px;
+    padding: 2px 2px 2px 2px;
+    position: static;
+    height: 35px;
+    width: 35px;
+    font-size: 24px;
+    text-shadow: none;
+    color: #bdbaba;
+    background-color: #fff;
+    border-color: #eceaea;
+    border-radius: 7px;
+    margin-right: 3px;
+    margin-left: 3px;
 }
 
 .controls{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 15px;
 
 }
 .hidden-xs{
     max-width: 100%;
 }
 .carousel-card {
-    width: 155%;
-    top: 27px;
-	right: 10px;
-	padding-inline-start: 20px;
-}
+		width: 100%;
+		position: static;
+		padding-left: 930px;
+	}
+  
 .review {
 	margin-top: 9px;
 	padding-top: 10px;

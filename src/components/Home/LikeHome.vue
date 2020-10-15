@@ -1,24 +1,25 @@
 <template>
   <div class="container-carousel">
     <div class="row">
-      <div class="col-md-10 mx-auto">
+      <div class="col-md-12 ">
         <div
           id="myCarouselcard"
           class="carousel slide"
-          data-ride="carousel"
+          data-ride="carousel--s"
           data-interval="0"
           data-type="multi"
         >
           <!-- Carousel indicators -->
+          <div class="row">
+          <h3 class="headlike">MMEMEMEMEMME LIKE</h3>
           <div class="col-md-6 col-sm-6 col-xs-6 hidden-xs">
             <div class="controls pull-right">
-              <a
+                <ol class="carouse carousel-card carousel-indicators">
+             <a
                 class="left fa fa-angle-left btn btn-info-card"
                 href="#myCarouselcard"
                 data-slide="prev"
-              ></a>
-              <span>
-                <ol class="carousel-indicators carouse carousel-card">
+              ></a> 
                   <li
                     data-target="#myCarouselcard"
                     data-slide-to="0"
@@ -26,16 +27,15 @@
                   ></li>
                   <li data-target="#myCarouselcard" data-slide-to="1"></li>
                   <li data-target="#myCarouselcard" data-slide-to="2"></li>
-                </ol>
-              </span>
               <a
                 class="right fa fa-angle-right btn btn-info-card"
                 href="#myCarouselcard"
                 data-slide="next"
               ></a>
+                </ol>
             </div>
           </div>
-          <h3 class="headlike">MMEMEMEMEMME LIKE</h3>
+          </div>
           <br />
 
           <!-- Wrapper for carousel items -->

@@ -1,8 +1,8 @@
 .container-main-home {
   overflow-x: hidden;
-  max-width: 125em;
-  padding-inline-start: 10em;
-  padding-inline-end: 10em;
+  max-width: 100%;
+  padding-inline-start: 8em;
+  padding-inline-end: 8em;
 }
 
 .frontpage {
@@ -11,6 +11,7 @@
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   grid-column-gap: 1em;
+
 }
 .frontpage:before .frontpage:after {
   position: relative;

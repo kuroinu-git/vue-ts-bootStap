@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <div class="mh-100" style="height: 40px"></div>
-    <div class="container--carousel">
+  <div class="container--carousel">
+    <div class="mh-100"></div>
+    <div class="container-card-carousel">
       <div class="row">
         <div class="col">
           <div
