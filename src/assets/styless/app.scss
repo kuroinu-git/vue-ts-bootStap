@@ -16,12 +16,13 @@
   }
   
   #nav a.router-link-exact-active:after {
-      content: "";
-      position: relative;
-      bottom: -3.438em;
-      left: -50%;
-      border: 0.063em solid black;
-  }
+    content: "";
+    position: relative;
+    bottom: -1.6em;
+    left: -50%;
+    border: 0.04em solid black;
+
+}
   .fa-shopping-bag:before {
     content: '\f290';
     padding: 40%;
